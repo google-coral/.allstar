@@ -1,1 +1,19 @@
 baseConfig: google/allstar-config
+optConfig:
+  optOutStrategy: true
+  optOutRepos:
+  # Exemption timeframe: permanent
+  # Exemption reason: pycoral- libedgetpu library for easy getting started. Souce is available in libedgetpu repo.
+  - pycoral
+  # Exemption reason: posenet- Library for PoseNet post-process. Source in libcoral repo.
+  - project-posenet
+  # Exemption reason: bodypix- Library for PoseNet post-process. Source in libcoral repo.
+  - project-bodypix
+  # Exemption reason: libedgetpu- Windows dlls needed for interacting with Coral device.
+  - libedgetpu
+  # Exemption reason: edgetpu- libedgetpu library for easy getting started. Souce is available in libedgetpu repo.
+  - edgetpu
+  # Exemption reason: coralmicro-blhost- Vendor tool for MCU bootloader.
+  - coralmicro-blhost
+  # Exemption reason: coralmicro- Vendor tool for generatining MCU images.
+  - coralmicro
