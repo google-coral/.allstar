@@ -17,3 +17,5 @@ optConfig:
   - coralmicro-blhost
   # Exemption reason: coralmicro- Vendor tool for generatining MCU images.
   - coralmicro
+  # Exemption reason: coralmicro-rt1176-sdk- Vendor tool for generatining MCU images.
+  - coralmicro-rt1176-sdk
