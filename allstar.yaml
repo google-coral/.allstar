@@ -15,5 +15,5 @@ optConfig:
   - edgetpu
   # Exemption reason: coralmicro-blhost- Vendor tool for MCU bootloader.
   - coralmicro-blhost
-  # Exemption reason: coralicro- Vendor tool for generatining MCU images.
+  # Exemption reason: coralmicro- Vendor tool for generatining MCU images.
   - coralmicro
